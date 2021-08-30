@@ -6,7 +6,7 @@ from linebot import (
 from linebot.exceptions import (
     InvalidSignatureError
 )
-from linebot.model import (
+from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage, ImageSendMessage, VideoSendMessage,
     StickerSendMessage, AudioSendMessage
 )
